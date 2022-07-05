@@ -1,0 +1,42 @@
+@import "./sass/vendors/bootstrap.scss";
+
+@import "./sass/abstracts/mixins";
+@import "./sass/abstracts/variables";
+@import "./sass/abstracts/helpers";
+
+@import "./sass/base/base";
+@import "./sass/base/typography";
+
+@import "./sass/components/buttons";
+
+@import "./sass/layout/footer";
+@import "./sass/layout/sections";
+
+@import "./sass/sections/about";
+@import "./sass/sections/contact";
+@import "./sass/sections/hero";
+@import "./sass/sections/projects";
+
+element.style {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  color: var(--bs-body-color);
+  text-align: var(--bs-body-text-align);
+  background-color: #000;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
